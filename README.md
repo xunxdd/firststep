@@ -15,6 +15,15 @@ A static website built with Gatsby.
 
 ## 🎓 Step by Step
 
+While learning to build the site, I also tried to record the steps I took.
+
+The following is the full write-up
  [![Learning Gatsby]](https://xunding.medium.com/learning-gatsby-react-36cbdfbbb09a)
 
+
+
+## 🎓 Site in progress
+
+The site is alive at
+ [![Live Demo]](https://first-step-xd.netlify.app/)
 
