@@ -1,30 +1,54 @@
 import React from "react"
-import Layout from "components/layout/layout";
-import Container from "react-bootstrap/Container";
-import Jumbotron from "react-bootstrap/Jumbotron";
+import Layout from "components/layout/layout"
+import Container from "react-bootstrap/Container"
+import Jumbotron from "react-bootstrap/Jumbotron"
+import { useStaticQuery, graphql } from "gatsby"
 
-const Home = () => {
+const Posts = () => {
+  const data = useStaticQuery(graphql`
+    query {
+      posts: allPostJson {
+        edges {
+          node {
+            url,
+            title,
+            description,
+          }
+        }
+      }
+    }
+  `)
+
   return (
     <Layout>
       <Jumbotron fluid className="bg-light m-0">
-        <Container className="p-2 mb-5">
-          <h1>Future Posts</h1>
-          <blockquote>
-            Life is short,
-            and art long,
-            opportunity fleeting,
-            experience perilous,
-            and decision difficult.
-            <div className="text-muted small mt-4">
-              By Hippocrates
-            </div>
-          </blockquote>
 
+        <Container className="p-2 mb-5">
+          <h3>Posts</h3>
+
+          {
+            getPosts(data).map((item, index) => {
+              return (
+                <div key={index}>
+                  <p><a href={item.url} target="_blank" rel="noopener noreferrer">{item.title}</a></p>
+                  <p>{item.description}</p>
+                </div>
+              )
+            })}
         </Container>
+
       </Jumbotron>
+
 
     </Layout>
   )
 }
 
-export default Home;
+function getPosts(data) {
+  const posts = [];
+  data.posts.edges.forEach(itm => {
+    posts.push(itm.node)
+  });
+  return posts;
+}
+export default Posts;

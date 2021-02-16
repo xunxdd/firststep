@@ -13,8 +13,8 @@ A static website built with Gatsby.
     ```
 
 
-## 🎓 Want to learn more?
+## 🎓 Step by Step
 
- [![Learning Gatsby]](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-hello-world)
+ [![Learning Gatsby]](https://xunding.medium.com/learning-gatsby-react-36cbdfbbb09a)
 
 

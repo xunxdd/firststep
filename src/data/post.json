@@ -1,0 +1,47 @@
+[
+    {
+        "title": "Combining Handhelds with a Whole-Class Display to Support the Learning of Scientific Controversies",
+        "url": "https://www.evl.uic.edu/moher/papers/chi2003.pdf",
+        "description": "Third grade students used wireless handhelds and a large  shared display to discover strategies for control of variables in scientific experiments. The technology suite supported       activity requirements including synchronous individual       control, face-to-face discourse, and instantaneous display      updates. In an empirical study, students demonstrated       learning in both original and transfer domains."
+    },
+    {
+        "title": "UiPath Custom Activities (Plus a Sentiment Analysis Activity)",
+        "url": "https://medium.com/@xunding/uipath-custom-activities-plus-a-sentiment-analysis-activity-f44f794d3060",
+        "description": "It is 2020. It is the year of pandemic. The highest drama and the saddest comedy in which is a president infected with coronavirus. Now on the heels of a summer of unrest, flood, fire and alarming death toll, it is fall. The feeling of a doomed world lingers."
+    },
+    {
+        "title": "Some musing on UiPath and the orchestrators",
+        "url": "https://medium.com/@xunding/some-musing-on-uipath-and-the-orchestrators-a95934ea50ad",
+        "description": "The path of digitalization is littered with legacy applications, outdated data, antiquated formats, age-old documents that cannot be readily consumed, but must be preserved, transformed, digitalized and made ready for the eventual consumption of the newer, more powerful applications."
+    },
+    {
+        "title": "Learning FastText",
+        "url": "https://towardsdatascience.com/fasttext-ea9009dba0e8",
+        "description": "This is my renewed self-torturing attempt at learning machine learning. "
+    },
+    {
+        "title": "How I built my first mobile app: ReadingLog App",
+        "url": "https://www.linkedin.com/pulse/how-i-built-my-first-mobile-app-readinglog-xun-ding/",
+        "description": "My learning experience with my first mobile App."
+    },
+    {
+        "title": "Is there anything in common between programmers and musicians?",
+        "url": "https://www.linkedin.com/pulse/anything-common-between-programmers-musicians-xun-ding/",
+        "description": ""
+    },
+    {
+        "title": "Square, Circle, Ring ..., Oh and That Smiley",
+        "url": "http://www.codeproject.com/Tips/1022374/Square-Circle-Ring-Oh-and-That-Smiley",
+        "description": "Make some shapes, have some CSS fun"
+    },
+    {
+        "title": "JavaScript: A brief history - Part I",
+        "url": "http://www.codeproject.com/Articles/1027487/JavaScript-A-brief-history-Part-I",
+        "description": "JavaScript is 20 years old. Shall we look back and take some snapshots of the milestones?"
+    },
+    {
+        "title": "Learning Typescript and building a google map with it",
+        "url": "http://www.codeproject.com/Articles/1033708/Learning-Typescript-and-building-a-google-map-with",
+        "description": "Typescript is a 2-year old powerhouse language, and is ordained as the official language for Angular js 2.0. Shall we learn some Typescript?"
+    }
+]
